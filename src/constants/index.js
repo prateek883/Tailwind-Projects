@@ -23,23 +23,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Pune University",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "I completed my MCA in Computer Science from Pune University, India.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Mumbai University",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "I have graduated from Mumbai University, India with a B.Sc(I.T) in Computer Science.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "School",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "I done my schooling from the local school, Khed, Ratnagiri, Maharashtra, India.",
   },
 ];
 
