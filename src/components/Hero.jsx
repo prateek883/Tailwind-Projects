@@ -4,33 +4,37 @@ import GetStarted from "./GetStarted";
 
 const Hero = () => {
   return (
-    <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
-      <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
-        <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
-          <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
-          <p className={`${styles.paragraph} ml-2`}>
-            <span className="text-white">Welcome</span>to my Profile{" "}
-          </p>
-        </div>
-
+    <section
+      id="home"
+      className={`flex md:flex-row flex-col ${styles.paddingY}`}
+    >
+      <div
+        className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
+      >
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
-            I am<br className="sm:block hidden" />{" "}
+            I am
+            <br className="sm:block hidden" />{" "}
             <span className="text-gradient">Prateek Singh</span>{" "}
           </h1>
-          {/* <div className="ss:flex hidden md:mr-4 mr-0">
-            <GetStarted />
-          </div> */}
         </div>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          A software developer is a person who specializes in the development of software.
-          I am a full stack developer with a strong focus on front end development. I have a strong background in web development and have worked on multiple projects.
-          I have worked on Education Management System, e-commerce website, and a website for a startup.
+          A software developer is a person who specializes in the development of
+          software. I am a full stack developer with a strong focus on front end
+          development. I have a strong background in web development and have
+          worked on multiple projects. I have worked on Education Management
+          System, e-commerce website, and a website for a startup.
         </p>
       </div>
 
-      <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
-        <img src={robot} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
+      <div
+        className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
+      >
+        <img
+          src={robot}
+          alt="billing"
+          className="w-[100%] h-[100%] relative z-[5]"
+        />
 
         {/* gradient start */}
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
