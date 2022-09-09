@@ -37,4 +37,4 @@ Deploy this template using [Vercel](https://vercel.com?utm_source=github&utm_med
 
 ## Author
 
-Surjith S M ( [@surjithctly](https://surjithctly.in/) )
+Prateek Singh
